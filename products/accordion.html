@@ -1,0 +1,240 @@
+<style>
+            body.products-template main .home-chicklets {
+            padding: 0 0 30px 0;
+            }
+            body.products-template main .home-chicklets .text-container {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            text-align: center; }
+            body.products-template main .home-chicklets .text-container h2 {
+            color: #003B5D;
+            margin-bottom: 30px; }
+            body.products-template main .home-chicklets .item  {
+            padding: 0px 5px;
+            }
+            body.products-template main .home-chicklets .item:first-child {
+            padding-left: 0px;
+            }
+            body.products-template main .home-chicklets .item:last-child {
+            padding-right: 0px;
+            }
+            body.products-template main .home-chicklets .item .chicklet {
+            padding: 4px 20px 15px 20px;
+            border: 1px solid #e9e9e9;
+            border-bottom: 1px solid #C9C9C9;
+            position: relative;
+            overflow: auto;
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F3F3F3), color-stop(90%, #EEEEEE), color-stop(100%, #DFDFDF));
+            background-image: -webkit-linear-gradient(top, #F3F3F3 0%, #EEEEEE 90%, #DFDFDF 100%);
+            background-image: -ms-linear-gradient(top, #F3F3F3 0%, #EEEEEE 90%, #DFDFDF 100%);
+            background-image: -moz-linear-gradient(top, #F3F3F3 0%, #EEEEEE 90%, #DFDFDF 100%);
+            background-image: -o-linear-gradient(top, #F3F3F3 0%, #EEEEEE 90%, #DFDFDF 100%);
+            background-image: linear-gradient(to bottom, #F3F3F3 0%, #EEEEEE 90%, #DFDFDF 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F3F3F3", endColorstr="#DFDFDF");
+            }
+            body.products-template main .home-chicklets .item h3 {
+            font-size: 12px;
+            font-family: "Avenir LT W01 85 Heavy", "Calibri", "Arial", "Helvetica";
+            color: #5b666e;}
+            body.products-template main .home-chicklets .item h4 {
+            font-size: 16px;
+            font-family: "Avenir LT W01 85 Heavy", "Calibri", "Arial", "Helvetica"; 
+            color: #053c53;}
+            body.products-template main .home-chicklets .item ul {
+            list-style: none;
+            padding: 0;
+            }
+            body.products-template main .home-chicklets .item .col-xs-9 {
+            padding: 0;
+            }
+            body.products-template main .home-chicklets .item a {
+            color: #8CAC33;
+            }
+            body.products-template main .home-chicklets .item img {
+            vertical-align: -2.4cm;
+            }
+
+
+
+    @media (max-width: 767px) {
+    body.products-template main .home-chicklets .container{
+    padding: 0;
+    }
+    body.products-template main .home-chicklets .item img {
+    display: inline-block;
+    margin-left: 17px;
+    vertical-align: middle;
+    width: 35px;
+    }
+    body.products-template main .home-chicklets .item{
+    padding: 0;
+    }
+    /*       body.products-template main .home-chicklets .item:first-child {
+    padding-left: 5px;
+    }
+    body.products-template main .home-chicklets .item:last-child {
+    padding-right: 5px;
+    }*/
+    body.products-template main .home-chicklets .item ul {
+    list-style: none;
+    padding: 0 0 0 60px;
+    }
+    body.products-template main .home-chicklets .item ul li {
+    padding: 0 0 20px 0;
+    }
+    .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    background-color: #f5f5f4;
+    }
+    }
+    body.products-template main .home-chicklets  .panel-heading {
+    padding: 1px 0px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    background-image: -ms-linear-gradient(top, #F3F3F3 50%, #C9C9C9 150%);
+    background-image: -moz-linear-gradient(top, #F3F3F3 50%, #C9C9C9 150%);
+    background-image: -o-linear-gradient(top, #F3F3F3 50%, #C9C9C9 150%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #F3F3F3), color-stop(1.5, #C9C9C9));
+    background-image: -webkit-linear-gradient(top, #F3F3F3 50%, #C9C9C9 150%);
+    background-image: linear-gradient(to bottom, #F3F3F3 50%, #C9C9C9 150%);
+    }
+    body.products-template main .home-chicklets .panel-default {
+    border: none;
+    }
+    body.products-template main .home-chicklets .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    font-size: 25px;
+    color: black;        /* adjust as needed */
+    top: -48px;
+    right: 20px;
+    position: relative;
+    }
+    body.products-template main .home-chicklets .panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+    }
+</style>
+<!-- Latest compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<body class="products-template">
+    <main>
+        <div class="home-chicklets">
+            <div class = "container">
+                <div class="panel-group" id="accordion">
+                    <div class="item hidden-md hidden-sm hidden-md hidden-lg">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        <div class="col-xs-2"><img src="http://www.five9.com/media_library/image/833/five9_sales_marketing_icon.png" class="five9for-image"></div>
+                                        <div class="col-sm-10">
+                                            <h3>FIVE9 FOR</h3>
+                                            <h4>SALES & MARKETING</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a class="five9for" href="#" target="_self">Predictive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Power Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Progressive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Preview Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">TCPA</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item hidden-md hidden-sm hidden-md hidden-lg">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                        <div class="col-xs-2"><img src="http://www.five9.com/media_library/image/834/five9_service_support_icon.png" class="five9for-image"></div>
+                                        <div class="col-sm-10">
+                                            <h3>FIVE9 FOR</h3>
+                                            <h4>SERVICE & SUPPORT</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a class="five9for" href="#" target="_self">Predictive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Power Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Progressive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Preview Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">TCPA</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item hidden-md hidden-sm hidden-md hidden-lg">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                        <div class="col-xs-2"><img src="http://www.five9.com/media_library/image/833/five9_sales_marketing_icon.png" class="five9for-image"></div>
+                                        <div class="col-sm-10">
+                                            <h3>FIVE9 FOR</h3>
+                                            <h4>ADVANTAGE</h4>
+                                        </div>
+                                    </a>
+                                 </div>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a class="five9for" href="#" target="_self">Predictive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Power Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Progressive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Preview Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">TCPA</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item hidden-md hidden-sm hidden-md hidden-lg">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                        <div class="col-xs-2"><img src="http://www.five9.com/media_library/image/835/five9_advantage_icon.png" class="five9for-image"></div>
+                                        <div class="col-sm-10">
+                                            <h3>FIVE9 FOR</h3>
+                                            <h4>SALES & MARKETING</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a class="five9for" href="#" target="_self">Predictive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Power Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Progressive Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">Preview Dialer</a></li>
+                                        <li><a class="five9for" href="#" target="_self">TCPA</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end container -->
+        </div>
+    </main>
+</body>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

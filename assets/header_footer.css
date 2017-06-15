@@ -1,0 +1,634 @@
+
+div#main-header {
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+  background-color: white; }
+  @media (max-width: 991px) {
+    div#main-header {
+      height: 56px; } }
+  div#main-header > .container {
+    position: relative;
+    padding: 1rem 0;
+    box-sizing: border-box; }
+    @media (max-width: 991px) {
+      div#main-header > .container {
+        height: 50px; } }
+  div#main-header #header-logo {
+    width: 77px;
+    height: 40px;
+    margin-left: 1rem;
+    margin-top: -3px;
+    background-image: url("../images/header_footer/five9-logo.png");
+    background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      div#main-header #header-logo {
+        background-image: url("../images/header_footer/five9-logo_2x.png");
+        background-size: contain; } }
+    @media (min-width: 992px) {
+      div#main-header #header-logo {
+        width: 225px;
+        height: 90px;
+        margin-left: 0;
+        background-image: url("../images/header_footer/five9-logo-tagline.png");
+        background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat; } }
+  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 992px) and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-width: 992px) and (min-resolution: 125dpi), only screen and (min-width: 992px) and (min-resolution: 1.3dppx) {
+    div#main-header #header-logo {
+      background-image: url("../images/header_footer/five9-logo-tagline_2x.png");
+      background-size: contain; } }
+
+  div#main-header .menu-options {
+    margin-top: 0; }
+    div#main-header .menu-options a {
+      text-decoration: none; }
+      div#main-header .menu-options a:hover, div#main-header .menu-options a:focus, div#main-header .menu-options a:active, div#main-header .menu-options a:visited {
+        text-decoration: none; }
+    div#main-header .menu-options .item {
+      display: inline-block;
+      margin-right: 1rem; }
+      div#main-header .menu-options .item .login-icon {
+        margin: 0 auto;
+        width: 21px;
+        height: 21px;
+        background-image: url("../images/header_footer/user-sprite.png");
+        background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
+        background-position: 0 0;
+        -o-background-position: 0 0;
+        -moz-background-position: 0 0;
+        -webkit-background-position: 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          div#main-header .menu-options .item .login-icon {
+            background-image: url("../images/header_footer/user-sprite_2x.png");
+            background-size: cover; } }
+      div#main-header .menu-options .item .phone-icon {
+        margin: 0 auto;
+        width: 18px;
+        height: 20px;
+        background-image: url("../images/header_footer/phone-sprite-mobile.png");
+        background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
+        background-position: 0 0;
+        -o-background-position: 0 0;
+        -moz-background-position: 0 0;
+        -webkit-background-position: 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          div#main-header .menu-options .item .phone-icon {
+            background-image: url("../images/header_footer/phone-sprite-mobile_2x.png");
+            background-size: cover; } }
+      div#main-header .menu-options .item .menu-icon {
+        margin: 0 auto;
+        width: 22px;
+        height: 19px;
+        background-image: url("../images/header_footer/menu-sprite.png");
+        background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
+        background-position: 0 0;
+        -o-background-position: 0 0;
+        -moz-background-position: 0 0;
+        -webkit-background-position: 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          div#main-header .menu-options .item .menu-icon {
+            background-image: url("../images/header_footer/menu-sprite_2x.png");
+            background-size: cover; } }
+      div#main-header .menu-options .item p {
+        font-family: 'Avenir LT W01 85 Heavy', 'Calibri', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: #003B5D;
+        text-align: center;
+        font-size: 12px;
+        margin: 0; }
+      div#main-header .menu-options .item:active .icon {
+        background-position: 0 100%;
+        -o-background-position: 0 100%;
+        -moz-background-position: 0 100%;
+        -webkit-background-position: 0 100%; }
+      div#main-header .menu-options .item:active p {
+        color: #288DC1; }
+  div#main-header .contact-container {
+	z-index: 10000;
+    display: none;
+    background-color: #003B5D;
+    position: absolute;
+    top: 100%;
+    padding: 5rem; }
+    div#main-header .contact-container > .container {
+      max-width: 500px; }
+    div#main-header .contact-container .item {
+      font-family: 'Avenir LT W01 55 Roman', 'Calibri', Arial, Helvetica, sans-serif;
+      margin-bottom: 1.25rem;
+      position: relative; }
+      div#main-header .contact-container .item .icon {
+        opacity: 0.65;
+        display: inline-block;
+        margin-right: 1rem; }
+        div#main-header .contact-container .item .icon.phone-icon {
+          position: relative;
+          top: 2px;
+          width: 13px;
+          height: 14px;
+          background-image: url("../images/header_footer/phone-icon-white.png"); }
+          @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+            div#main-header .contact-container .item .icon.phone-icon {
+              background-image: url("../images/header_footer/phone-icon-white_2x.png");
+              background-size: cover; } }
+        div#main-header .contact-container .item .icon.email-icon {
+          position: relative;
+          width: 16px;
+          height: 10px;
+          background-image: url("../images/header_footer/email-icon-white.png"); }
+          @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+            div#main-header .contact-container .item .icon.email-icon {
+              background-image: url("../images/header_footer/email-icon-white_2x.png");
+              background-size: cover; } }
+        div#main-header .contact-container .item .icon.twitter-icon {
+          position: relative;
+          width: 15px;
+          height: 12px;
+          background-image: url("../images/header_footer/twitter-icon-white.png"); }
+          @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+            div#main-header .contact-container .item .icon.twitter-icon {
+              background-image: url("../images/header_footer/twitter-icon-white_2x.png");
+              background-size: cover; } }
+        div#main-header .contact-container .item .icon.location-icon {
+          position: relative;
+          top: -3rem;
+          width: 12px;
+          height: 18px;
+          background-image: url("../images/header_footer/location-icon-white.png"); }
+          @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+            div#main-header .contact-container .item .icon.location-icon {
+              background-image: url("../images/header_footer/location-icon-white_2x.png");
+              background-size: cover; } }
+      div#main-header .contact-container .item a {
+        display: inline-block;
+        color: white;
+        text-decoration: none; }
+        div#main-header .contact-container .item a:hover, div#main-header .contact-container .item a:focus, div#main-header .contact-container .item a:active, div#main-header .contact-container .item a:visited {
+          text-decoration: none; }
+        div#main-header .contact-container .item a:active {
+          color: #E17D00; }
+  @media (max-width: 991px) {
+    div#main-header .top-info {
+      display: none; } }
+  div#main-header .top-info .contact-info {
+    display: inline-block;
+    position: relative; }
+  @media (min-width: 1200px) {
+	  div#main-header .top-info .contact-info {
+		  left: 42px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+	  div#main-header .top-info .contact-info {
+		  left: -46px; } }
+    div#main-header .top-info .contact-info .title-contact {
+      display: inline-block; }
+      @media (min-width: 992px) {
+        div#main-header .top-info .contact-info .title-contact {
+          margin-right: 1rem; } }
+      @media (min-width: 1200px) {
+        div#main-header .top-info .contact-info .title-contact {
+          margin-right: 2rem; } }
+      div#main-header .top-info .contact-info .title-contact p {
+        font-family: 'Avenir LT W01 35 Light', 'Calibri', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: #7C868D; }
+    div#main-header .top-info .contact-info .contact {
+      display: inline-block; }
+      @media (min-width: 992px) {
+        div#main-header .top-info .contact-info .contact {
+          margin-right: 0.5rem; } }
+      @media (min-width: 1200px) {
+        div#main-header .top-info .contact-info .contact {
+          margin-right: 2rem; } }
+      div#main-header .top-info .contact-info .contact a, div#main-header .top-info .contact-info .contact p {
+        display: inline-block;
+        font-family: "Avenir LT W01 35 Light", "Calibri", "Arial", "Helvetica";
+        font-weight: 400;
+        color: #7489a1; }
+      div#main-header .top-info .contact-info .contact.phone-contact a {
+        font-size: 16px;
+        font-weight: normal;}  
+      div#main-header .top-info .contact-info .contact .phone-icon {
+        display: inline-block;
+        position: relative;
+        top: 2px;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+        background-image: url("../images/header_footer/phone-sprite.png");
+        background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
+        background-position: 0 0;
+        -o-background-position: 0 0;
+        -moz-background-position: 0 0;
+        -webkit-background-position: 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          div#main-header .top-info .contact-info .contact .phone-icon {
+            background-image: url("../images/header_footer/phone-sprite_2x.png");
+            background-size: cover; } }
+      div#main-header .top-info .contact-info .contact .email-icon {
+        display: inline-block;
+        width: 16px;
+        height: 10px;
+        margin-right: 5px;
+        background-image: url("../images/header_footer/email-sprite.png");
+        background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
+        background-position: 0 0;
+        -o-background-position: 0 0;
+        -moz-background-position: 0 0;
+        -webkit-background-position: 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          div#main-header .top-info .contact-info .contact .email-icon {
+            background-image: url("../images/header_footer/email-sprite_2x.png");
+            background-size: cover; } }
+      div#main-header .top-info .contact-info .contact .chat-icon {
+        display: inline-block;
+        position: relative;
+        top: 2px;
+        width: 16px;
+        height: 14px;
+        margin-right: 5px;
+        background-image: url("../images/header_footer/chat-sprite.png");
+        background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
+        background-position: 0 0;
+        -o-background-position: 0 0;
+        -moz-background-position: 0 0;
+        -webkit-background-position: 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          div#main-header .top-info .contact-info .contact .chat-icon {
+            background-image: url("../images/header_footer/chat-sprite_2x.png");
+            background-size: cover; } }
+      div#main-header .top-info .contact-info .contact:hover a, div#main-header .top-info .contact-info .contact:hover p, div#main-header .top-info .contact-info .contact:focus a, div#main-header .top-info .contact-info .contact:focus p, div#main-header .top-info .contact-info .contact:active a, div#main-header .top-info .contact-info .contact:active p {
+        color: #007cb5;
+        text-decoration: none;
+        cursor: pointer; }
+      div#main-header .top-info .contact-info .contact:hover .icon, div#main-header .top-info .contact-info .contact:focus .icon, div#main-header .top-info .contact-info .contact:active .icon {
+        background-position: 0 0;
+        -o-background-position: 0 0;
+        -moz-background-position: 0 0;
+        -webkit-background-position: 0 0; }
+  div#main-header .top-info .search-container {
+    display: inline-block;
+    position: relative; }
+    @media (min-width: 992px) {
+      div#main-header .top-info .search-container {
+        margin-left: 1.5rem; } }
+    @media (min-width: 1200px) {
+      div#main-header .top-info .search-container {
+        margin-left: 11rem; } }
+    div#main-header .top-info .search-container .search-box {
+      border: 1px solid #D0D3D4;
+      padding: 4px 8px 6px;
+      color: #5B6770;
+      border-radius: 3px;
+      width: 120px; }
+      div#main-header .top-info .search-container .search-box:active + .search-icon, div#main-header .top-info .search-container .search-box:focus + .search-icon {
+        background-position: 0 100%;
+        -o-background-position: 0 100%;
+        -moz-background-position: 0 100%;
+        -webkit-background-position: 0 100%; }
+    div#main-header .top-info .search-container .search-icon {
+      position: absolute;
+      top: 10px;
+      right: 8px;
+      height: 13px;
+      width: 14px;
+      background-image: url("../images/header_footer/search-sprite.png");
+      background-repeat: no-repeat;
+      -o-background-repeat: no-repeat;
+      -moz-background-repeat: no-repeat;
+      -webkit-background-repeat: no-repeat;
+      background-position: 0 0;
+      -o-background-position: 0 0;
+      -moz-background-position: 0 0;
+      -webkit-background-position: 0 0; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+        div#main-header .top-info .search-container .search-icon {
+          background-image: url("../images/header_footer/search-sprite_2x.png");
+          background-size: cover; } }
+  div#main-header .top-info .login-container {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 12px; }
+    div#main-header .top-info .login-container .btn-login {
+      font-family: 'Avenir LT W01 55 Roman', 'Calibri', Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: white;
+      background-color: #288DC1;
+      border: none;
+      border-radius: 3px;
+      padding: 6px 20px; }
+      div#main-header .top-info .login-container .btn-login:hover, div#main-header .top-info .login-container .btn-login:focus {
+        background-color: #2476A0; }
+      div#main-header .top-info .login-container .btn-login .user-icon {
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        margin-right: 6px;
+        height: 14px;
+        width: 14px;
+        background-image: url("../images/header_footer/user-icon.png"); }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          div#main-header .top-info .login-container .btn-login .user-icon {
+            background-image: url("../images/header_footer/user-icon_2x.png");
+            background-size: cover; } }
+  div#main-header .main-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+    div#main-header .main-nav h3 {
+      display: none; }
+    div#main-header .main-nav ul.nav-level-1 {
+      display: block;
+      margin-bottom: 7px; }
+      div#main-header .main-nav ul.nav-level-1 > li {
+        display: inline-block;
+        font-family: 'Avenir LT W01 85 Heavy', 'Calibri', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 0.25rem; }
+        @media (min-width: 1200px) {
+          div#main-header .main-nav ul.nav-level-1 > li {
+            margin-right: 1.25rem; } }
+        div#main-header .main-nav ul.nav-level-1 > li:last-child {
+          margin-right: 0; }
+        div#main-header .main-nav ul.nav-level-1 > li > a {
+          background-color: white;
+          color: #003B5D;
+          padding: 8px 12px 7px;
+          border: 1px solid white; }
+          div#main-header .main-nav ul.nav-level-1 > li > a:hover, div#main-header .main-nav ul.nav-level-1 > li > a:focus, div#main-header .main-nav ul.nav-level-1 > li > a a:active {
+            color: #288DC1;
+            text-decoration: none; }
+          div#main-header .main-nav ul.nav-level-1 > li > a.has-children {
+            position: relative; }
+            div#main-header .main-nav ul.nav-level-1 > li > a.has-children:hover, div#main-header .main-nav ul.nav-level-1 > li > a.has-children:focus, div#main-header .main-nav ul.nav-level-1 > li > a.has-children.hover {
+              z-index: 10000;
+              box-shadow: 0 -2px 4px #D0D3D4;
+              border: 1px solid #D0D3D4;
+              border-bottom: 1px solid white; 
+              color: #288DC1;}
+            div#main-header .main-nav ul.nav-level-1 > li > a.has-children:hover + .nav-level-2-container {
+              display: block; }
+        div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container {
+          display: none;
+          position: absolute;
+          margin-top: 5px;
+          background-color: white;
+          border: 1px solid #D0D3D4;
+          box-shadow: 0 0 4px #D0D3D4;
+          padding: 24px;
+          z-index: 100; }
+          div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container:hover {
+            display: block; }
+          div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.products .nav-level-2 {
+            height: 355px;
+            width: 590px; }
+          div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.solutions {
+            left: 50px; }
+            div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.solutions .nav-level-2 {
+              height: 220px;
+              width: 480px; }
+          div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.services .nav-level-2 {
+            width: 220px; }
+          div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.partners {
+            right: 0; }
+            div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.partners .nav-level-2 {
+              width: 450px;
+              height: 180px; }
+          div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.about-us {
+            right: 0; }
+            div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container.about-us .nav-level-2 {
+              width: 350px;
+              height: 260px; }
+          div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 {
+	        position: relative;
+	        display: -webkit-box; /* iOS 6-, Safari 3.1 - 6 */
+	        display: -moz-box; /* Firefox 19- */
+	        display: -ms-flexbox; /* Tweener for IE 10 */
+	        display: -webkit-flex; /* Chrome */
+            display: flex; /* Opera 12.1, Firefox 20+ */
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -moz-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            list-style: none;
+            padding-left: 0; }
+            div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col {
+	            position: absolute;
+	            top: 0;
+            }
+            div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li {
+              font-family: 'Avenir LT W01 85 Heavy', 'Calibri', Arial, Helvetica, sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              padding-bottom: 8px;
+              padding-left: 25px;
+              position: relative;
+              left: -25px;
+              margin-right: 20px;
+              border-left: 1px solid #D0D3D4; }
+              div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li > a, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li > a {
+                color: #328ebe;
+                margin-bottom: 5px;
+                line-height: 36px; }
+                div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li > a:hover, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li > a:focus, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li > a:hover, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li > a:focus {
+                  color: #00395f;
+                  text-decoration: none; }
+              div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li .nav-level-3, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li .nav-level-3 {
+                list-style: none;
+                padding-left: 0; }
+                div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li .nav-level-3 > li, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li .nav-level-3 > li {
+                  font-family: 'Avenir LT W01 45 Book', 'Calibri', Arial, Helvetica, sans-serif;
+                  font-weight: 400;
+                  font-size: 14px; }
+                  div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li .nav-level-3 > li > a, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li .nav-level-3 > li > a {
+                    color: #5b666e;
+                    line-height: 22px; 
+                    text-decoration: none;}
+                  div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > li .nav-level-3 > li > a:hover, div#main-header .main-nav ul.nav-level-1 > li .nav-level-2-container .nav-level-2 > .nav-col > li .nav-level-3 > li > a:hover {
+                    color: #2f3438;}
+  div#main-header .main-nav-mobile {
+    position: fixed;
+    background-color: #003B5D;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    max-width: 270px;
+    display: none;
+    z-index: 1000; }
+    div#main-header .main-nav-mobile > div {
+      display: none;
+      background-color: #003B5D;
+      width: 100%;
+      height: 100%;
+      overflow-y: scroll; }
+      div#main-header .main-nav-mobile > div.nav-level-1 {
+        margin-top: -50px; }
+      div#main-header .main-nav-mobile > div h3 {
+        font-family: 'Avenir LT W01 85 Heavy', 'Calibri', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.8);
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 16px 30px;
+        display: inline-block; }
+      div#main-header .main-nav-mobile > div a {
+        font-family: 'Avenir LT W01 55 Regular', 'Calibri', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        display: block;
+        padding: 1.4rem 3rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+        div#main-header .main-nav-mobile > div a.menu-item:nth-child(2) {
+          border-top: 1px solid rgba(255, 255, 255, 0.25); }
+        div#main-header .main-nav-mobile > div a:hover, div#main-header .main-nav-mobile > div a:focus, div#main-header .main-nav-mobile > div a:active, div#main-header .main-nav-mobile > div a:visited {
+          text-decoration: none; }
+        div#main-header .main-nav-mobile > div a:hover, div#main-header .main-nav-mobile > div a:focus {
+          background-color: rgba(255, 255, 255, 0.1); }
+        div#main-header .main-nav-mobile > div a:active {
+          background-color: rgba(255, 255, 255, 0.25); }
+      div#main-header .main-nav-mobile > div a.next-menu {
+        box-sizing: content-box !important;
+        right: 0;
+        margin-top: -51px;
+        height: 50px;
+        width: 50px;
+        padding: 0;
+        border-left: 1px solid rgba(255, 255, 255, 0.25);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+        div#main-header .main-nav-mobile > div a.next-menu span.glyphicon-chevron-right {
+          position: relative;
+          color: white;
+          opacity: 0.8;
+          font-size: 14px;
+          top: 16px;
+          left: 18px; }
+        div#main-header .main-nav-mobile > div a.next-menu:hover, div#main-header .main-nav-mobile > div a.next-menu:focus {
+          background-color: rgba(255, 255, 255, 0.1); }
+        div#main-header .main-nav-mobile > div a.next-menu:active {
+          background-color: rgba(255, 255, 255, 0.25); }
+    div#main-header .main-nav-mobile .nav-level-2, div#main-header .main-nav-mobile .nav-level-3 {
+      margin-top: -50px; }
+      div#main-header .main-nav-mobile .nav-level-2 h3, div#main-header .main-nav-mobile .nav-level-3 h3 {
+        max-width: 170px; }
+      div#main-header .main-nav-mobile .nav-level-2 a.last-menu, div#main-header .main-nav-mobile .nav-level-3 a.last-menu {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border-right: 1px solid rgba(255, 255, 255, 0.25);
+        border-bottom: none;
+        position: relative; }
+        div#main-header .main-nav-mobile .nav-level-2 a.last-menu span.glyphicon-chevron-left, div#main-header .main-nav-mobile .nav-level-3 a.last-menu span.glyphicon-chevron-left {
+          position: relative;
+          left: -6px;
+          color: white; }
+        div#main-header .main-nav-mobile .nav-level-2 a.last-menu:hover, div#main-header .main-nav-mobile .nav-level-2 a.last-menu:focus, div#main-header .main-nav-mobile .nav-level-3 a.last-menu:hover, div#main-header .main-nav-mobile .nav-level-3 a.last-menu:focus {
+          background-color: rgba(255, 255, 255, 0.1); }
+        div#main-header .main-nav-mobile .nav-level-2 a.last-menu:active, div#main-header .main-nav-mobile .nav-level-3 a.last-menu:active {
+          background-color: rgba(255, 255, 255, 0.25); }
+      div#main-header .main-nav-mobile .nav-level-2 a.menu-item:nth-child(3), div#main-header .main-nav-mobile .nav-level-3 a.menu-item:nth-child(3) {
+        border-top: 1px solid rgba(255, 255, 255, 0.25); }
+      div#main-header .main-nav-mobile .nav-level-2 a.next-menu:nth-child(4), div#main-header .main-nav-mobile .nav-level-3 a.next-menu:nth-child(4) {
+        border-top: 1px solid rgba(255, 255, 255, 0.25);
+        margin-top: -52px; }
+    div#main-header .main-nav-mobile .close-nav {
+      display: block;
+      height: 50px;
+      width: 50px;
+      position: relative;
+      left: -50px;
+      background-color: #003B5D;
+      border: 1px solid rgba(255, 255, 255, 0.25); }
+      div#main-header .main-nav-mobile .close-nav span.glyphicon-remove {
+        color: white;
+        opacity: 0.85;
+        font-size: 14px;
+        margin-top: 16px;
+        margin-left: 16px; }
+      div#main-header .main-nav-mobile .close-nav:hover > span, div#main-header .main-nav-mobile .close-nav:active > span {
+        opacity: 1; }
+
+.modal-darken {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+
+footer {
+  margin: 0;
+  padding: 2rem 0 0 0 !important; }
+  footer h3 {
+    font-family: 'Avenir LT W01 55 Roman', 'Calibri', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px !important;
+    color: #328FBE; }
+  footer ul {
+    list-style: none;
+    padding-left: 0; }
+    footer ul li {
+      line-height: 32px;
+      font-size: 15px; }
+      footer ul li a {
+        color: #7489a1;
+        font-family: "Avenir LT W01 35 Light","Calibri","Arial","Helvetica" }
+        footer ul li a:hover, footer ul li a:focus, footer ul li a:active {
+          color: #007cb5;
+          text-decoration: none;
+          margin-bottom: 15px; }
+  footer .copyright-info {
+    padding: 3rem; }
+    footer .copyright-info p {
+      color: #7489a1;
+      font-size: 1em;
+      font-family: "Camphor W01 Light", "Calibri", "Arial", "Helvetica";}
+      footer .copyright-info p a{
+      color: #7489a1;
+      text-decoration: none;}
+      footer .copyright-info p a:hover{
+      color: #007CB5;}
+  footer section#return-to-top {
+    background-color: #003B5D;
+    color: white;
+    padding: 2em 0; }
+    footer section#return-to-top h2 {
+      text-align: center;
+      font-family: "Avenir TL W01 85 Heavy", "Calibri", "Arial", "Helvetica";
+      font-weight: 400; }
+    @media (min-width: 992px) {
+      footer section#return-to-top {
+        display: none; } }
